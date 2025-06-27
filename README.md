@@ -1,6 +1,6 @@
 # 🏦 Bank Customer Churn Prediction
 
-A machine learning project to predict if a bank customer is likely to leave (“churn”), using logistic regression and random forest models. Built in Python with a focus on interpretable results and real-world use cases.
+A deep learning project to predict if a bank customer is likely to leave (“churn”), using pre-processing methods and a multilayer perceptron (MLP) model. Built in Python with a focus on interpretable results and real-world use cases.
 
 ---
 
@@ -14,11 +14,17 @@ Many banks face revenue loss when clients close their accounts. By predicting ch
 
 - Source: Kaggle “Predicting Churn for Bank Customers” (~10,000 records)
 - Features include:
-  - Demographics: Age, Gender, Geography
-  - Financial: Credit Score, Balance, Estimated Salary
-  - Engagement: Tenure, Number of Products, Card ownership, Active status  
+  - CreditScore,
+  - Gender,
+  - Age,
+  - Tenure,
+  - Balance,
+  - NumOfProducts
+  - HasCrCard
+  - IsActiveMember
+  - EstimatedSalary
 - Target: Exited (0 = stayed, 1 = churned).  
-- ~20% of customers have churned  [oai_citation:3‡github.com](https://github.com/Pranjal-Soni/Bank-Customer-Churn-Prediction/blob/main/README.md?utm_source=chatgpt.com) [oai_citation:4‡huggingface.co](https://huggingface.co/AnilKumarK2004/bank-customer-churn-prediction-gbclassifier?utm_source=chatgpt.com) [oai_citation:5‡researchgate.net](https://www.researchgate.net/publication/377232894_Bank_Customer_Churn_Prediction_with_Machine_Learning_Methods?utm_source=chatgpt.com).
+- The model can predict whether a customer is likely to stay or leave the bank with over 86% of accuracy. 
 
 ---
 
@@ -27,7 +33,7 @@ Many banks face revenue loss when clients close their accounts. By predicting ch
 - 🐍 Python (pandas, scikit‑learn)  
 - 💻 Jupyter notebooks for EDA & feature engineering  
 - 🔁 Scikit‑learn pipelines for preprocessing (encoding, scaling)  
-- 📈 Models: logistic regression & random forest (k‑fold cross‑validation)  
+- 📈 Models: multilayer perceptron (MLP) model
 - 📖 Feature importance & model comparison
 
 ---
