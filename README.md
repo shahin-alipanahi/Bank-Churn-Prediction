@@ -1,4 +1,4 @@
-# Bank Customer Churn Prediction
+# Bank Churn Prediction
 
 A deep learning project to predict if a bank customer is likely to leave (“churn”), using pre-processing methods and a multilayer perceptron (MLP) model. Built in Python with a focus on interpretable results and real-world use cases.
 
