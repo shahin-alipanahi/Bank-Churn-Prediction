@@ -14,11 +14,11 @@ Many banks face revenue loss when clients close their accounts. By predicting ch
 
 - Source: Kaggle “Predicting Churn for Bank Customers” (~10,000 records)
 - Features include:
-  - CreditScore,
-  - Gender,
+  - CreditScore
+  - Gender
   - Age,
-  - Tenure,
-  - Balance,
+  - Tenure
+  - Balance
   - NumOfProducts
   - HasCrCard
   - IsActiveMember
